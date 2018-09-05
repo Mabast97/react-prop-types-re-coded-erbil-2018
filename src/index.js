@@ -14,4 +14,8 @@ class Order extends React.Component {
       </div>
     );
   }
+  Order.defaultProps = {
+  cone: true,
+  size: 'regular'
+};
 }
